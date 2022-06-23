@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&family=Manrope:wght@400&display=swap');
 /*----------  base
 ------------------------------------------------------------------------------*/
 // @import "base/reset";
@@ -70,21 +70,97 @@ p {
         top: -114px;
     }
 }
+.section-2 .row > * {
+    padding-left: 0;
+    padding-right: 0;
+}
 .col-left_section-2 {
-    padding-top: 55px;
+    padding-top: 55px;   
 }
 .col-left_section-2 > p {
-    padding-right: 200px;  
+    // padding-right: 200px;        
     line-height: 1.5;  
+   width: 540px;
+}
+.col-left_section-2 > p:nth-of-type(2) {
+    margin-bottom: 15px;
 }
 .col-left_section-2 > h2 {
     letter-spacing: 0.2px;
     margin-bottom: 30px;
 }
+.col-left_section-2 > span {
+   padding-bottom: 4px;
+}
 .section-2 .fylo-img-wrapper {
     padding-top: 85px;
-    // padding-right:30px;
-    img {
-        width: 900px;
+    padding-left: 10px;
+    width: 550px;
+}
+.fylo-card {
+    background-color: white;
+    width: 356px;
+    padding: 15px 32px 8px 32px;
+    -webkit-box-shadow: 0px 0px 16px 4px rgba(133,133,133,0.43);
+    -moz-box-shadow: 0px 0px 16px 4px rgba(133,133,133,0.43);
+    box-shadow: 0px 0px 16px 4px rgba(133,133,133,0.43);
+    margin-bottom: 106px;
+    p {
+        font-size: 14px;
+        line-height: 1.6;
     }
+}
+.quote-mark {
+    font-family: "Manrope";
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 5px; 
+    display: block;  
+    height: 30px;
+}
+.avatar-container { 
+    p:nth-of-type(1) {
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: 0;
+        letter-spacing: 0.1px;
+    }
+    p:nth-of-type(2) {
+        font-size: 9px;
+        letter-spacing: -0.1px;
+    }
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.section-3 {
+    background-color: $primary_lvl_1;
+    padding-top: 105px;
+    padding-bottom: 72px;
+    color: white;
+    h2 {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 22px;
+    }
+    p {
+        font-size: 18px;
+        // line-height: 1.5;
+        padding-right: 100px;
+        letter-spacing: -0.5px;
+    }
+    
+}
+.form-2-wrapper {
+    padding-left: 120px;
+}
+.get-started-2 {
+    width: 480px;
+    height: 47px;
+}
+.fylo-btn-2 {
+    height: 47px;
+    font-size: 14px;
 }
