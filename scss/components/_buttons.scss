@@ -1,0 +1,20 @@
+.fylo-btn {
+    // height: 45px;
+    width: 100%;
+    font-size: 28px;
+    padding: 18px;
+    letter-spacing: 0.015em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) { 
+    .fylo-btn {        
+        font-size: 14px;
+        padding: 11px 10px;
+        width: 200px;
+        // letter-spacing: 0.015em;
+        
+        // margin-bottom: 20px;
+    }
+}

@@ -10,7 +10,12 @@
 // }
 h1, h2 {
     font-family: 'Raleway';
+    color: $primary_lvl_2;    
 }
-// body {
-//     font-family: $ffamily_primary, sans-serif;
-// }
+body {
+    // font-family: $ffamily_primary, sans-serif;
+    color: $primary_lvl_2;
+}
+p {
+    line-height: 1.3;    
+}

@@ -1,0 +1,40 @@
+.header {
+    background-color: bisque;
+    div {
+        background-color: azure;
+        ul {
+            background-color: royalblue;
+        }
+    }
+    padding-left: 46px;
+    padding-right: 46px;
+    margin-top: 48px;
+    margin-bottom: 170px;
+    font-family: Raleway;
+    .nav-item {
+        padding-right: 4px;
+        padding-left: 14px;
+    }
+    .nav-link {
+        font-size: 22px;
+       letter-spacing: 0.9px;
+        
+    }
+}
+
+@media (min-width: 768px) { 
+    .header {
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-top: 65px;
+        
+        margin-bottom: 40px;
+    }
+    .header .nav-item {
+        padding-left: 20px;
+    }
+    .header .nav-link {
+        font-size: 16px;
+        letter-spacing: unset;
+    }
+ }
