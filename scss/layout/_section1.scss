@@ -1,5 +1,5 @@
 .section-1 {
-    background-color: pink;
+    // background-color: pink;
     margin-bottom: 50px;
 }
 // .section-1 .col-left > p {
@@ -50,7 +50,7 @@ p {
 
 @media (min-width: 768px) { 
     .content_text-s1 {        
-        padding-top: 120px;       
+        padding-top: 124px;       
     }
     h2 {    
         font-size: 40px;
@@ -81,5 +81,14 @@ p {
         padding-top: 45px;
         padding-right: 10px;
         padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h2 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
     }
 }

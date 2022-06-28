@@ -1,0 +1,95 @@
+.fylo-card {
+    background-color: white;
+    max-width: 560px;
+    padding: 42px 25px 41px 51px;
+    -webkit-box-shadow: 0px 0px 16px 4px rgba(133,133,133,0.43);
+    -moz-box-shadow: 0px 0px 16px 4px rgba(133,133,133,0.43);
+    box-shadow: 0px 0px 16px 4px rgba(133,133,133,0.43);
+    margin-bottom: 64px;
+    margin-left: 84px;
+    .quote {
+        width: 25px;
+        margin-bottom: 16px;
+    }
+    .card-p {
+        font-size: 20px;
+        line-height:36px;
+        letter-spacing: 0.035em;
+        margin-bottom: 24px;
+        text-align: left;
+    }
+    .avatar-container {         
+            .avatar-name {
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: 0.1em;
+            }
+            .avatar-title {
+                font-size: 12px;
+                letter-spacing: 0.05em;
+            }
+        }        
+        .avatar-info > p {
+            margin: 0;
+            padding: 0;
+            margin-left: 15px;
+            // padding-bottom: 2px;
+            padding-top: 4px;
+            line-height: 21px;
+            text-align: left;
+        }
+    .avatar-img {
+        // border: 1px solid red;
+        width: 48px;
+        height: 48px;        
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .fylo-card {
+        margin-left: unset;
+        margin: 0 auto 50px;
+    }
+    
+}
+@media screen and (min-width: 992px) {
+    .fylo-card {        
+        width: 356px;
+        padding: 15px 32px 24px 32px;       
+        margin-bottom: 106px;
+        margin-left: 0;
+    }
+    .fylo-card .card-p{
+        font-size: 13px;
+        line-height: 23px; 
+        letter-spacing: 0.035rem;
+        margin-bottom: 13px;      
+    }
+    .fylo-card .quote {
+        width: 16px;
+        margin-top: 12px;
+        margin-bottom: 10px;
+    } 
+    .fylo-card .avatar-container { 
+        .avatar-info > p {
+            line-height: 14px;
+            margin-left: 10px;
+        }
+        .avatar-name {
+            font-size: 13px;
+            font-weight: 700;
+            margin-bottom: 0;
+            letter-spacing: 0.1px;
+        }
+        .avatar-title {
+            font-size: 9px;
+            letter-spacing: -0.1px;
+        }
+        
+        .avatar-img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+    
+}
