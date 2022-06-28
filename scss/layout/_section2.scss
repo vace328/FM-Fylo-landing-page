@@ -3,14 +3,13 @@
     margin-top: 160px;    
 }
 .curve {  
-    // border: 1px solid green;    
     img {
         width: 100%;
     }
 }
 .content-s2 {
     background-color: $neutral_lvl_1;
-    padding-bottom: 100px;
+    padding-bottom: 116px;
 }
 .s2-img-wrapper {
     padding-top: 80px;
@@ -66,6 +65,7 @@
     .content-s2 {
         padding-top: 60px;
         padding-left: 80px;
+        padding-bottom: 0px;
     }
     .content-s2 h2 {
         font-size: 40px;
@@ -95,7 +95,7 @@
         padding-top: 30px;
         padding-right: 80px;
         padding-left: 60px;
-        margin-bottom: 175px;
+        margin-bottom: 173px;
     }
 }
 // .section-2 .row > * {
