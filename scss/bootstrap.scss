@@ -7,8 +7,9 @@
 
 // 2. Include any default variable overrides here
 $font-size-base: 1rem;
-// $primary: red;
 $secondary: hsl(170, 45%, 43%);
+$blue: hsl(224, 93%, 58%);
+
 $font-family-sans-serif: 'Open Sans';
 $h2-font-size:  $font-size-base * 2.5 !default;
 $container-max-widths: (
@@ -48,23 +49,7 @@ $grid-breakpoints: (
 // @import "../node_modules/bootstrap/scss/button-group";
 @import "../node_modules/bootstrap/scss/nav";
 @import "../node_modules/bootstrap/scss/navbar";
-// @import "../node_modules/bootstrap/scss/card";
-// @import "../node_modules/bootstrap/scss/accordion";
-// @import "../node_modules/bootstrap/scss/breadcrumb";
-// @import "../node_modules/bootstrap/scss/pagination";
-// @import "../node_modules/bootstrap/scss/badge";
-// @import "../node_modules/bootstrap/scss/alert";
-// @import "../node_modules/bootstrap/scss/progress";
-// @import "../node_modules/bootstrap/scss/list-group";
-// @import "../node_modules/bootstrap/scss/close";
-// @import "../node_modules/bootstrap/scss/toasts";
-// @import "../node_modules/bootstrap/scss/modal";
-// @import "../node_modules/bootstrap/scss/tooltip";
-// @import "../node_modules/bootstrap/scss/popover";
-// @import "../node_modules/bootstrap/scss/carousel";
-// @import "../node_modules/bootstrap/scss/spinners";
-// @import "../node_modules/bootstrap/scss/offcanvas";
-// @import "../node_modules/bootstrap/scss/placeholders";
+
 
 @import "../node_modules/bootstrap/scss/helpers";
 @import "../node_modules/bootstrap/scss/utilities/api";
@@ -74,8 +59,6 @@ $grid-breakpoints: (
 //     padding-left: 29px;
 //     padding-right: 29px;
 // }
-
-
 
 // @import "../node_modules/bootstrap/scss/bootstrap";
 

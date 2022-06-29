@@ -1,11 +1,14 @@
 .fylo-btn {
-    // height: 45px;
     width: 100%;
     font-size: 28px;
     padding: 18px;
     letter-spacing: 0.015em;
     font-weight: 700;
     margin-bottom: 20px;
+    &:hover {
+        background-color: $hover;
+        border-color: $hover;
+    }
 }
 
 @media (min-width: 768px) { 

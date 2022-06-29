@@ -23,6 +23,10 @@ footer {
         padding: 0;
         text-align: left;
         margin-bottom: 40px;
+        cursor: pointer;
+        &:hover {
+            color: $hover;
+        }
     }
     .footer-icon {
         width: 36px;
@@ -54,9 +58,20 @@ svg {
     height: 54px;
     margin-right: 20px;  
     fill: white; 
+    cursor: pointer;
 }
 svg:last-of-type {
     margin-right: 0px;
+}
+svg:first-of-type:hover {
+    fill: #4267B2;
+}
+svg:nth-of-type(2):hover {
+    fill: #1DA1F2;
+}
+
+svg:last-of-type:hover {
+    fill: #C13584;
 }
 
 @media screen and (min-width: 992px) {
