@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/vace328/FM-Fylo-landing-page)
+- Solution URL: [GitHub](https://github.com/vace328/FM-Fylo-landing-page/tree/dev)
 - Live Site URL: [Demo](https://vace328.github.io/FM-Fylo-landing-page/)
 
 ## My process
