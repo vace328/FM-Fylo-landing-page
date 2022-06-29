@@ -1,11 +1,4 @@
 .header {
-    background-color: bisque;
-    div {
-        background-color: azure;
-        ul {
-            background-color: royalblue;
-        }
-    }
     padding-left: 46px;
     padding-right: 46px;
     margin-top: 48px;
@@ -40,6 +33,10 @@
 }
 
 @media screen and (max-width: 576px) {
+    .header {
+        padding-left: 0;
+        padding-right: 0;
+    }
     .header .nav-link {
         font-size: 18px; 
      }

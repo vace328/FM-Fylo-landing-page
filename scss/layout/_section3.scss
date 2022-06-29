@@ -1,36 +1,7 @@
-// .section-3 {
-//     background-color: $primary_lvl_1;
-//     padding-top: 105px;
-//     padding-bottom: 72px;
-//     color: white;
-//     h2 {
-//         font-size: 32px;
-//         font-weight: 700;
-//         margin-bottom: 22px;
-//     }
-//     p {
-//         font-size: 18px;
-//         // line-height: 1.5;
-//         padding-right: 100px;
-//         letter-spacing: -0.5px;
-//     }
-    
-// }
-// .form-2-wrapper {
-//     padding-left: 120px;
-// }
-// .get-started-2 {
-//     width: 480px;
-//     height: 47px;
-// }
-// .fylo-btn-2 {
-//     height: 47px;
-//     font-size: 14px;
-// }
 .section-3 {
     background-color: $primary_lvl_1;
     padding-top: 110px;
-    padding-bottom: 72px;
+    padding-bottom: 120px;
     color: white;
     h2 {
         font-size: 36px;
@@ -102,6 +73,7 @@
         padding-left: 80px;
         padding-right: 80px;
         padding-top: 105px;
+        padding-bottom: 82px;
     }
     .section-3 h2 {
         text-align: left;
@@ -143,5 +115,14 @@
 @media screen and (min-width: 1400px) {
     .form-2 {
         padding-left: 120px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .section-3 p {
+        width: unset;
+        margin-left: 0;
+    }
+    .form-2-wrapper {
+        padding: 0;
     }
 }

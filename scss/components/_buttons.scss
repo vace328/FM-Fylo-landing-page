@@ -13,9 +13,16 @@
         font-size: 14px;
         padding: 11px 10px;
         width: 200px;
-        // letter-spacing: 0.015em;
-        
-        // margin-bottom: 20px;
+    }
+    .fylo-btn-2 {        
+        font-size: 14px;
+        padding: 11px 10px;
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {   
+    .fylo-btn-2 {   
+        width: 200px;
     }
 }
 
